@@ -1,59 +1,7 @@
 .My-Site {
   height: 100vh;
-  width: 100vw;
+  min-width: 639px;
   background-image: image();
   background-color: transparent;
   font-family: "Courgette", cursive;
-  color: #ffffff;
-}
-
-.My-Site-header {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  background-color: #901010;
-}
-
-.page {
-  background-color: #901010;
-}
-
-.yoursTruly {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-}
-
-.name {
-  font-size: 5rem;
-}
-
-.occupation {
-  font-size: 2.5rem;
-}
-
-.center-piece {
-  display: flex;
-  justify-content: center;
-}
-
-nav {
-  width: 50rem;
-  border: 0.1rem solid black;
-  height: 2rem;
-}
-
-.nav {
-  width: 15rem;
-  display: flex;
-  justify-content: space-around;
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: inherit;
-}
-
-hr {
-  height: 1rem;
-  color: black;
-  border: 1px solid black;
 }
