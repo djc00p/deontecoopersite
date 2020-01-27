@@ -47,24 +47,9 @@ const Header = () => {
               viewBox="0 0 60 40"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <rect
-                y="9"
-                width="60"
-                height="6"
-                style={{ margin: "16px" }}
-              ></rect>
-              <rect
-                y="18"
-                width="60"
-                height="6"
-                style={{ margin: "16px" }}
-              ></rect>
-              <rect
-                y="27"
-                width="60"
-                height="6"
-                style={{ margin: "16px" }}
-              ></rect>
+              <rect y="9" width="60" height="6"></rect>
+              <rect y="18" width="60" height="6"></rect>
+              <rect y="27" width="60" height="6"></rect>
             </svg>
           </button>
           <div
