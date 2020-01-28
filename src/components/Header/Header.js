@@ -9,8 +9,8 @@ const Header = () => {
 
   window.onclick = function(event) {
     if (
-      !event.target.nodeName === "BUTTON" &&
-      /svg/.test(event.target.className)
+      !event.target.matches(".navbar-toggle") &&
+      !event.target.matches(".menu-svg")
     ) {
       var dropdowns = document.getElementsByClassName("navbar-dropdown");
       var i;
@@ -66,25 +66,28 @@ const Header = () => {
               height="30"
               viewBox="0 0 60 40"
               xmlns="http://www.w3.org/2000/svg"
-              className="svg"
+              className="menu-svg"
             >
               <rect
                 y="9"
                 width="60"
                 height="6"
                 style={{ fill: "rgb(255,255,255)" }}
+                className="menu-svg"
               ></rect>
               <rect
                 y="18"
                 width="60"
                 height="6"
                 style={{ fill: "rgb(255,255,255)" }}
+                className="menu-svg"
               ></rect>
               <rect
                 y="27"
                 width="60"
                 height="6"
                 style={{ fill: "rgb(255,255,255)" }}
+                className="menu-svg"
               ></rect>
             </svg>
           </button>
