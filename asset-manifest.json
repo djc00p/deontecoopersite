@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/deontecoopersite/static/css/main.cfda8877.chunk.css",
+    "main.js": "/deontecoopersite/static/js/main.3bf6fe96.chunk.js",
+    "main.js.map": "/deontecoopersite/static/js/main.3bf6fe96.chunk.js.map",
+    "runtime-main.js": "/deontecoopersite/static/js/runtime-main.21f10e3d.js",
+    "runtime-main.js.map": "/deontecoopersite/static/js/runtime-main.21f10e3d.js.map",
+    "static/js/2.318e0177.chunk.js": "/deontecoopersite/static/js/2.318e0177.chunk.js",
+    "static/js/2.318e0177.chunk.js.map": "/deontecoopersite/static/js/2.318e0177.chunk.js.map",
+    "index.html": "/deontecoopersite/index.html",
+    "precache-manifest.58735b578019dcbddfc6970c2ac0ee61.js": "/deontecoopersite/precache-manifest.58735b578019dcbddfc6970c2ac0ee61.js",
+    "service-worker.js": "/deontecoopersite/service-worker.js",
+    "static/css/main.cfda8877.chunk.css.map": "/deontecoopersite/static/css/main.cfda8877.chunk.css.map",
+    "static/js/2.318e0177.chunk.js.LICENSE": "/deontecoopersite/static/js/2.318e0177.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21f10e3d.js",
+    "static/js/2.318e0177.chunk.js",
+    "static/css/main.cfda8877.chunk.css",
+    "static/js/main.3bf6fe96.chunk.js"
+  ]
+}
