@@ -8,7 +8,10 @@ const Header = () => {
   };
 
   window.onclick = function(event) {
-    if (!event.target.matches(".navbar-toggle")) {
+    if (
+      !event.target.nodeName === "BUTTON" &&
+      /svg/.test(event.target.className)
+    ) {
       var dropdowns = document.getElementsByClassName("navbar-dropdown");
       var i;
       for (i = 0; i < dropdowns.length; i++) {
@@ -63,6 +66,7 @@ const Header = () => {
               height="30"
               viewBox="0 0 60 40"
               xmlns="http://www.w3.org/2000/svg"
+              className="svg"
             >
               <rect
                 y="9"
