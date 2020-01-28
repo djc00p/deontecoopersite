@@ -5,6 +5,7 @@
   background-color: #901010;
   color: #ffffff;
 }
+/* Name and Occupation */
 .yoursTruly {
   display: flex;
   flex-direction: column;
@@ -20,6 +21,7 @@
   display: flex;
   justify-content: center;
 }
+/* NavBar */
 nav {
   max-width: 40rem;
   padding: 0;
@@ -43,18 +45,18 @@ hr {
   color: black;
   border: 1px solid black;
 }
-/* NavBar */
 .navbar {
   width: auto;
   background-color: #901010;
 }
+/* Mobile NavBar */
 .navbar-toggle {
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  width: 639px;
+  width: 100vw;
   font-size: 0.875rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
@@ -68,7 +70,7 @@ hr {
 .navbar-toggle:hover {
   background-color: #bb2020;
 }
-/* Drop Down */
+/* Dropdown */
 .dropdown {
   position: relative;
   display: block;
@@ -103,7 +105,7 @@ hr {
   color: #bb2020;
 }
 /* Show */
-.dropdown:hover .navbar-dropdown {
+.show {
   display: block;
 }
 /* ========================================================================
