@@ -3,6 +3,23 @@ import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
+  const displayDropdownMenu = () => {
+    document.getElementById("myDropdown").classList.toggle("show");
+  };
+
+  window.onclick = function(event) {
+    if (!event.target.matches(".navbar-toggle")) {
+      var dropdowns = document.getElementsByClassName("navbar-dropdown");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains("show")) {
+          openDropdown.classList.remove("show");
+        }
+      }
+    }
+  };
+
   return (
     <header className="My-Site-header">
       <div className="yoursTruly">
@@ -37,7 +54,7 @@ const Header = () => {
         </nav>
         <nav className="center-piece hidden@m dropdown" alt="Navbar">
           <button
-            onClick="displayMenu()"
+            onClick={displayDropdownMenu}
             className="navbar-toggle"
             alt="Navigation Dropdown Menu Button"
           >
@@ -47,9 +64,24 @@ const Header = () => {
               viewBox="0 0 60 40"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <rect y="9" width="60" height="6"></rect>
-              <rect y="18" width="60" height="6"></rect>
-              <rect y="27" width="60" height="6"></rect>
+              <rect
+                y="9"
+                width="60"
+                height="6"
+                style={{ fill: "rgb(255,255,255)" }}
+              ></rect>
+              <rect
+                y="18"
+                width="60"
+                height="6"
+                style={{ fill: "rgb(255,255,255)" }}
+              ></rect>
+              <rect
+                y="27"
+                width="60"
+                height="6"
+                style={{ fill: "rgb(255,255,255)" }}
+              ></rect>
             </svg>
           </button>
           <div
