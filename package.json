@@ -2,7 +2,7 @@
   "name": "deontecoopersite",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://djc00p.github.io/deontecoopersite",
+  "homepage": "http://djc00p.github.io/deontecoopersite",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
@@ -10,10 +10,10 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
-    "husky": "^4.0.1",
+    "husky": "^4.2.1",
     "lint-staged": "^9.5.0",
     "node-sass": "^4.13.0",
-    "npm": "^6.13.3",
+    "npm": "^6.13.7",
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2",
     "randomcolor": "^0.5.4",
@@ -71,6 +71,12 @@
       "!src/setupTest.js",
       "!src/serviceWorker.js",
       "!src/reducers/index.js"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
     ]
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.0"
   }
 }

@@ -1,13 +1,15 @@
 import React from "react";
-import { Route, NavLink } from "react-router-dom";
-import Bio from "./Bio";
+import { Route } from "react-router-dom";
+import Home from "./components/Home/Home";
+import Header from "./components/Header/Header";
 import "./App.css";
 
 function App() {
   return (
-    <div className="My-Site">
-      <header className="My-Site-header"></header>
-    </div>
+    <main className="My-Site">
+      <Header />
+      <Route exact path="/" component={Home} />
+    </main>
   );
 }
 

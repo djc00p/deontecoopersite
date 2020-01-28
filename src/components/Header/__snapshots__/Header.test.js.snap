@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should create snapshot of header 1`] = `
+<header
+  className="My-Site-header"
+>
+  <div
+    className="yoursTruly"
+  >
+    <span
+      alt="Name"
+      className="name center-piece"
+    >
+      Deonté J Cooper
+    </span>
+    <span
+      alt="Occupation"
+      className="occupation center-piece"
+    >
+      Software Engineer
+    </span>
+  </div>
+  <div
+    className="navbar center-piece"
+  >
+    <nav
+      alt="Navbar"
+      className="center-piece visible@m"
+    >
+      <NavLink
+        alt="Bio Link"
+        className="nav"
+        to="/bio"
+      >
+         
+        Bio
+         
+      </NavLink>
+      <hr />
+      <NavLink
+        alt="Projects Link"
+        className="nav"
+        to="/projects"
+      >
+         
+        Projects
+         
+      </NavLink>
+      <hr />
+      <NavLink
+        alt="Blog Link"
+        className="nav"
+        to="/blog"
+      >
+         
+        Blog
+         
+      </NavLink>
+      <hr />
+      <NavLink
+        alt="Contact Link"
+        className="nav"
+        to="/contact"
+      >
+         
+        Contact
+         
+      </NavLink>
+    </nav>
+    <nav
+      alt="Navbar"
+      className="center-piece hidden@m dropdown"
+    >
+      <button
+        alt="Navigation Dropdown Menu Button"
+        className="navbar-toggle"
+        onClick={[Function]}
+      >
+        <svg
+          className="menu-svg"
+          height="30"
+          viewBox="0 0 60 40"
+          width="60"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            className="menu-svg"
+            height="6"
+            style={
+              Object {
+                "fill": "rgb(255,255,255)",
+              }
+            }
+            width="60"
+            y="9"
+          />
+          <rect
+            className="menu-svg"
+            height="6"
+            style={
+              Object {
+                "fill": "rgb(255,255,255)",
+              }
+            }
+            width="60"
+            y="18"
+          />
+          <rect
+            className="menu-svg"
+            height="6"
+            style={
+              Object {
+                "fill": "rgb(255,255,255)",
+              }
+            }
+            width="60"
+            y="27"
+          />
+        </svg>
+      </button>
+      <div
+        alt="Navigation Dropdown Menu"
+        className="navbar-dropdown"
+        id="myDropdown"
+      >
+        <ul>
+          <li
+            className="nav"
+          >
+            <NavLink
+              alt="Bio Link"
+              className="nav"
+              to="/bio"
+            >
+               
+              Bio
+               
+            </NavLink>
+          </li>
+          <hr
+            className="dropdown-divider"
+          />
+          <li
+            className="nav"
+          >
+            <NavLink
+              alt="Projects Link"
+              className="nav"
+              to="/projects"
+            >
+               
+              Projects
+               
+            </NavLink>
+          </li>
+          <hr
+            className="dropdown-divider"
+          />
+          <li
+            className="nav"
+          >
+            <NavLink
+              alt="Blog Link"
+              className="nav"
+              to="/blog"
+            >
+               
+              Blog
+               
+            </NavLink>
+          </li>
+          <hr
+            className="dropdown-divider"
+          />
+          <li
+            className="nav"
+          >
+            <NavLink
+              alt="Contact Link"
+              className="nav"
+              to="/contact"
+            >
+               
+              Contact
+               
+            </NavLink>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+`;
