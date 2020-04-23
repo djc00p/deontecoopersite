@@ -1,0 +1,13 @@
+.bio {
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+p {
+  background-color: #901010;
+  border-top: 0.25rem solid black;
+  border-bottom: 0.25rem solid black;
+  padding: 0.5rem 10%;
+  font-size: 1.4rem;
+}
