@@ -1,7 +1,8 @@
+body {
+  background-color: #e3a486;
+}
 .My-Site {
   height: 100vh;
   min-width: 360px;
-  background-image: image();
-  background-color: transparent;
   font-family: "Courgette", cursive;
 }
