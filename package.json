@@ -71,9 +71,6 @@
       "!src/setupTest.js",
       "!src/serviceWorker.js",
       "!src/reducers/index.js"
-    ],
-    "setupFilesAfterEnv": [
-      "<rootDir>src/setupTests.js"
     ]
   },
   "devDependencies": {
