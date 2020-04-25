@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import ApolloClient from "apollo-boost";
-import { ApolloProvider } from "react-apollo";
+import { ApolloProvider } from "@apollo/react-hooks";
 
 // components
 import Home from "./components/Home/Home";
@@ -13,7 +13,7 @@ import Projects from "./components/Projects/Projects";
 import "./App.css";
 
 // apollo client setup
-const client = ApolloClient({
+const client = new ApolloClient({
   uri: "https://api.github.com/graphql"
 });
 
