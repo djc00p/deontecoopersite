@@ -1,5 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route } from "react-router-dom";
+
+// Apollo
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "@apollo/react-hooks";
 
