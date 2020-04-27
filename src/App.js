@@ -10,6 +10,7 @@ import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 import Bio from "./components/Bio/Bio";
 import Projects from "./components/Projects/Projects";
+import Blog from "./components/Blog/Blog";
 
 // CSS
 import "./App.css";
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/Bio" component={Bio} />
         <Route exact path="/Projects" component={Projects} />
+        <Route exact path="/Blog" component={Blog} />
       </main>
     </ApolloProvider>
   );
