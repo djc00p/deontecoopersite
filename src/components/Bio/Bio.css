@@ -4,7 +4,7 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-p {
+.bio-p {
   background-color: #901010;
   border-top: 0.25rem solid black;
   border-bottom: 0.25rem solid black;

@@ -7,10 +7,13 @@ exports[`Header should create snapshot of header 1`] = `
   <section
     className="bio"
   >
-    <p>
+    <p
+      className="bio-p"
+    >
       My name is Deonte J. Cooper. I was born in Denver, CO but have lived most of my days in Aurora, CO. I am a Software Engineer that studied at 
       <a
         href="https://turing.io/"
+        rel="noopener noreferrer"
         target="_blank"
       >
         Turing School of Software and Design
@@ -18,6 +21,7 @@ exports[`Header should create snapshot of header 1`] = `
        in the 1901 Backend Engineer program where 
       <a
         href="https://rubyonrails.org/"
+        rel="noopener noreferrer"
         target="_blank"
       >
         Ruby on Rails
@@ -25,6 +29,7 @@ exports[`Header should create snapshot of header 1`] = `
        is primarily taught 6/7 months and the last month was spent learning 
       <a
         href="https://www.javascript.com/"
+        rel="noopener noreferrer"
         target="_blank"
       >
         JavaScript
@@ -32,6 +37,7 @@ exports[`Header should create snapshot of header 1`] = `
       . In those seven months, I learned Object Oriented Programming in Ruby, building Web Applications in Ruby, building Professional Rails applications, and Client-Side Development with JavaScript. I enjoy both frontend and backend web development. I have worked with other programming languages such as 
       <a
         href="https://reactjs.org/"
+        rel="noopener noreferrer"
         target="_blank"
       >
         React
@@ -39,19 +45,25 @@ exports[`Header should create snapshot of header 1`] = `
        and 
       <a
         href="https://www.python.org/"
+        rel="noopener noreferrer"
         target="_blank"
       >
         Python
       </a>
       .
     </p>
-    <p>
+    <p
+      className="bio-p"
+    >
       Some hobbies of mine are Video Games and Music Production. I have been playing video games since as far back as I can remember and that is what sparked my interest in programming. I mostly play RPGs (Role-Playing Games) like The Witcher 3, Mass Effect, Pokemon, Dark Souls and many more. I also enjoy FPS (First-Person Shooters) games like Call of Duty and Battlefield. I enjoy a well-told story and a good challenge. Dark Souls is the gaming version of how I describe programming. It is challenging but not impossible, with a little grit and understanding of how things work you can overcome any challenge. Music is my favorite creation by humankind. It is one of the few things that can bring people of different backgrounds together and have an impact on each individual. It can envelop emotions that can speak the truth of the heart without one even knowing and there is always a song for someone out there. Music is my life and passion and I want to share that passion with the world.
     </p>
-    <p>
+    <p
+      className="bio-p"
+    >
       I am currently learning about 
       <a
         href="https://en.wikipedia.org/wiki/Hydroponics"
+        rel="noopener noreferrer"
         target="_blank"
       >
         Hydroponics Gardening

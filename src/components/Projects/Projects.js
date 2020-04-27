@@ -21,24 +21,24 @@ class Projects extends Component {
     }
 
     const repos = getRepos.map(repo => (
-      <div>
+      <div key={repo.node.name} className="repo-info">
+        <h2>{repo.node.name}</h2>
         <p>
-          <h2>{repo.node.name}</h2>
           <br />
           {repo.node.description}
           <br />
           <br />
           <strong>Primary Programming Language</strong>:{" "}
           {repo.node.primaryLanguage.name}
-          <h3>Links</h3>
-          Github Link:{" "}
-          <a href={repo.node.url} alt="A Link to the Github page">
-            {repo.node.url}
-          </a>
-          <br />
-          Home Page: {hpurl(repo.node.homepageUrl)}
-          <br />
         </p>
+        <h3>Links</h3>
+        Github Link:{" "}
+        <a href={repo.node.url} alt="A Link to the Github page">
+          {repo.node.url}
+        </a>
+        <br />
+        Home Page: {hpurl(repo.node.homepageUrl)}
+        <br />
       </div>
     ));
 
