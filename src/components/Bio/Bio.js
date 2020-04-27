@@ -1,35 +1,46 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./Bio.css";
 
 const Bio = () => {
   var turing = (
-    <a target="_blank" href="https://turing.io/">
+    <a target="_blank" href="https://turing.io/" rel="noopener noreferrer">
       Turing School of Software and Design
     </a>
   );
   var ruby = (
-    <a target="_blank" href="https://rubyonrails.org/">
+    <a
+      target="_blank"
+      href="https://rubyonrails.org/"
+      rel="noopener noreferrer"
+    >
       Ruby on Rails
     </a>
   );
   var js = (
-    <a target="_blank" href="https://www.javascript.com/">
+    <a
+      target="_blank"
+      href="https://www.javascript.com/"
+      rel="noopener noreferrer"
+    >
       JavaScript
     </a>
   );
   var react = (
-    <a target="_blank" href="https://reactjs.org/">
+    <a target="_blank" href="https://reactjs.org/" rel="noopener noreferrer">
       React
     </a>
   );
   var python = (
-    <a target="_blank" href="https://www.python.org/">
+    <a target="_blank" href="https://www.python.org/" rel="noopener noreferrer">
       Python
     </a>
   );
   var hydroponics = (
-    <a target="_blank" href="https://en.wikipedia.org/wiki/Hydroponics">
+    <a
+      target="_blank"
+      href="https://en.wikipedia.org/wiki/Hydroponics"
+      rel="noopener noreferrer"
+    >
       Hydroponics Gardening
     </a>
   );

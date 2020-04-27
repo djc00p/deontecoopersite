@@ -1,0 +1,85 @@
+{
+  "data": {
+    "user": {
+      "pinnedItems": {
+        "edges": [
+          {
+            "node": {
+              "name": "spaceinyourface",
+              "description": "The goal of Space In Your Face (SIYF) is to bring telescope and naked eye astronomy to users of all ages and ability groups. SIYF is a group effort originating during Module 3 at Turing School of Software & Design. This team included Jeremy Bennett, Deonte Cooper, Matt Levy, Corey Sheesley, and Matt Weiss.",
+              "url": "https://github.com/djc00p/spaceinyourface",
+              "homepageUrl": "https://spaceinyourface.herokuapp.com/",
+              "primaryLanguage": {
+                "name": "Ruby"
+              },
+              "owner": {
+                "login": "djc00p",
+                "url": "https://github.com/djc00p"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "PokeTeamBuilder",
+              "description": "This is a Pokemon Team Builder app. The purpose of this app is to provide and set up a team for competitive battle or even local fun battles without going through the grind a team of unknown potential. (Currently Working on)",
+              "url": "https://github.com/djc00p/PokeTeamBuilder",
+              "homepageUrl": "",
+              "primaryLanguage": {
+                "name": "Ruby"
+              },
+              "owner": {
+                "login": "djc00p",
+                "url": "https://github.com/djc00p"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "sweater-weather",
+              "description": "This is a weather app using Ruby on Rails. This project is the Mod 3 Final assignment from the Turing School of Software and Design. Assignment details are available in the @turingschool curriculum repository.",
+              "url": "https://github.com/djc00p/sweater-weather",
+              "homepageUrl": "",
+              "primaryLanguage": {
+                "name": "Ruby"
+              },
+              "owner": {
+                "login": "djc00p",
+                "url": "https://github.com/djc00p"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Express-Sweater-Weather",
+              "description": "Sweater Weather written in JavaScript/Express instead of Ruby on Rails. This is a weather app using JavaScript, built on NodeJS with the Express framework. Sequelize is used for an ORM.  This project is a Mod 4 assignment from the Turing School of Software and Design. Assignment details are available in the @turingschool curriculum repository.",
+              "url": "https://github.com/djc00p/Express-Sweater-Weather",
+              "homepageUrl": "",
+              "primaryLanguage": {
+                "name": "JavaScript"
+              },
+              "owner": {
+                "login": "djc00p",
+                "url": "https://github.com/djc00p"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Rales_Engine",
+              "description": "I used Rails and ActiveRecord to build a JSON API, which exposes the SalesEngine data schema. I also learned how to to build Single-Responsibility controllers to provide a well-designed and versioned API, how to use controller tests to drive my design, and used Ruby and ActiveRecord to perform more complicated business intelligence.",
+              "url": "https://github.com/djc00p/Rales_Engine",
+              "homepageUrl": "",
+              "primaryLanguage": {
+                "name": "Ruby"
+              },
+              "owner": {
+                "login": "djc00p",
+                "url": "https://github.com/djc00p"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
