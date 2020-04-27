@@ -11,6 +11,31 @@ class Contact extends Component {
     };
   }
 
+  handleSubmit(e) {
+    e.preventDefault();
+    fetch("http://localhost:3002/send", {
+      method: "POST",
+      body: JSON.stringify(this.state),
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json"
+      }
+    })
+      .then(response => response.json())
+      .then(response => {
+        if (response.status === "success") {
+          alert("Message Sent.");
+          this.resetForm();
+        } else if (response.status === "fail") {
+          alert("Message failed to send.");
+        }
+      });
+  }
+
+  resetForm() {
+    this.setState({ name: "", email: "", message: "" });
+  }
+
   render() {
     return (
       <div className="form-container">
@@ -54,6 +79,18 @@ class Contact extends Component {
         </form>
       </div>
     );
+  }
+
+  onNameChange(event) {
+    this.setState({ name: event.target.value });
+  }
+
+  onEmailChange(event) {
+    this.setState({ email: event.target.value });
+  }
+
+  onMessageChange(event) {
+    this.setState({ message: event.target.value });
   }
 }
 
