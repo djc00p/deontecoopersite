@@ -48,7 +48,7 @@ const Bio = () => {
   return (
     <div className="My-Bio">
       <section className="bio">
-        <p>
+        <p className="bio-p">
           My name is Deonte J. Cooper. I was born in Denver, CO but have lived
           most of my days in Aurora, CO. I am a Software Engineer that studied
           at {turing} in the 1901 Backend Engineer program where {ruby} is
@@ -59,7 +59,7 @@ const Bio = () => {
           both frontend and backend web development. I have worked with other
           programming languages such as {react} and {python}.
         </p>
-        <p>
+        <p className="bio-p">
           Some hobbies of mine are Video Games and Music Production. I have been
           playing video games since as far back as I can remember and that is
           what sparked my interest in programming. I mostly play RPGs
@@ -76,7 +76,7 @@ const Bio = () => {
           always a song for someone out there. Music is my life and passion and
           I want to share that passion with the world.
         </p>
-        <p>
+        <p className="bio-p">
           I am currently learning about {hydroponics} so that I can grow fruits
           and vegetables in my home without the use of soil. In hopes of using
           what I've learned, I would like to help my family and friends start
