@@ -9,13 +9,16 @@
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "apollo-boost": "^0.4.7",
+    "cors": "^2.8.5",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
+    "express": "^4.17.1",
     "graphql": "^15.0.0",
     "husky": "^4.2.1",
     "lint-staged": "^9.5.0",
     "node-sass": "^4.13.0",
+    "nodemailer": "^6.4.6",
     "npm": "^6.14.4",
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2",
@@ -81,5 +84,17 @@
     "@types/jest": "^25.1.0",
     "dotenv": "^8.2.0",
     "eslint-plugin-react-hooks": "^3.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djc00p/deontecoopersite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djc00p/deontecoopersite/issues"
   }
 }
