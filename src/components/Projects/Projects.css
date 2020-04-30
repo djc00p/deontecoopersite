@@ -12,3 +12,6 @@ h4 {
   padding: 0.5rem 10%;
   font-size: 1.4rem;
 }
+.url-link {
+  word-wrap: break-word;
+}
