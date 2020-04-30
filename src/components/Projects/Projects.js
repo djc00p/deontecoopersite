@@ -11,7 +11,7 @@ class Projects extends Component {
     function hpurl(hpu) {
       if (hpu !== "") {
         return (
-          <a href={hpu} alt="A Link to the Homepage">
+          <a href={hpu} className="url-link" alt="A Link to the Homepage">
             {hpu}
           </a>
         );
@@ -33,7 +33,11 @@ class Projects extends Component {
         </p>
         <h3>Links</h3>
         Github Link:{" "}
-        <a href={repo.node.url} alt="A Link to the Github page">
+        <a
+          href={repo.node.url}
+          className="url-link"
+          alt="A Link to the Github page"
+        >
           {repo.node.url}
         </a>
         <br />
