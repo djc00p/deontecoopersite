@@ -61,9 +61,9 @@ class Contact extends Component {
       <div className="form-container">
         <h1>Contact me</h1>
         <p className="form-control url-link">
+          <p className="form-control url-link">LinkedIn: {linkedin}</p>
           Email: deonte.cooper12 at gmail.com
         </p>
-        <p className="form-control url-link">LinkedIn: {linkedin}</p>
         <p className="form-control url-link">Twitter: {twitter}</p>
       </div>
 
