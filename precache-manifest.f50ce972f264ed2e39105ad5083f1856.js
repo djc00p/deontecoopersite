@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "738ce96c854fd98dac9bdd696e9fc7a7",
+    "revision": "8af01d909560fe1870f61c81c6d03f08",
     "url": "/deontecoopersite/index.html"
   },
   {
