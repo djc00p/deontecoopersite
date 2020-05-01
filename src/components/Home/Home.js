@@ -5,7 +5,20 @@ const Home = () => {
   return (
     <div className="home-page">
       <section>
-        <h1>Welcome!</h1>
+        <h1>
+          Welcome!
+          <br />
+          <br />
+          Click a link above to learn more about me!
+        </h1>
+
+        <div className="image-container">
+          <img
+            src="https://imgur.com/G6pbL3R.jpg?1"
+            alt="Head Shot"
+            className="headshot"
+          />
+        </div>
       </section>
     </div>
   );
