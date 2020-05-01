@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should create snapshot of Home 1`] = `
+<div
+  className="home-page"
+>
+  <section>
+    <h1>
+      Welcome!
+      <br />
+      <br />
+      Click a link above to learn more about me!
+    </h1>
+    <div
+      className="image-container"
+    >
+      <img
+        alt="Head Shot"
+        className="headshot"
+        src="https://imgur.com/G6pbL3R.jpg?1"
+      />
+    </div>
+  </section>
+</div>
+`;
