@@ -11,3 +11,19 @@ a {
   padding: 0.5rem 10%;
   font-size: 1.4rem;
 }
+.headshot {
+  max-width: 90%;
+  margin-top: 1.5rem;
+  align-items: center;
+  border: 0.25rem solid black;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.image {
+  border: 0.25rem solid black;
+  height: 20rem;
+  width: 16.4175rem;
+}

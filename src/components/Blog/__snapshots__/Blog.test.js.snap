@@ -5,7 +5,7 @@ exports[`Header should create snapshot of header 1`] = `
   <h1>
     Blog
   </h1>
-  <p
+  <div
     className="repo-info"
   >
     <h2>
@@ -24,8 +24,8 @@ exports[`Header should create snapshot of header 1`] = `
     <br />
     <br />
     Published on Mar 27, 2019 · 5 min read
-  </p>
-  <p
+  </div>
+  <div
     className="repo-info"
   >
     <h2>
@@ -44,8 +44,8 @@ exports[`Header should create snapshot of header 1`] = `
     <br />
     <br />
     Published on May 5, 2019 · 3 min read
-  </p>
-  <p
+  </div>
+  <div
     className="repo-info"
   >
     <h2>
@@ -64,6 +64,6 @@ exports[`Header should create snapshot of header 1`] = `
     <br />
     <br />
     Published on Aug 11, 2019 · 6 min read
-  </p>
+  </div>
 </div>
 `;

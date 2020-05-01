@@ -37,14 +37,34 @@ class Contact extends Component {
   }
 
   render() {
+    var linkedin = (
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/deonte-cooper/"
+        rel="noopener noreferrer"
+        alt="LinkedIn Profile page"
+      >
+        https://www.linkedin.com/in/deonte-cooper/
+      </a>
+    );
+    var twitter = (
+      <a
+        target="_blank"
+        href="https://twitter.com/DJC00P23"
+        rel="noopener noreferrer"
+        alt="Twitter Profile page"
+      >
+        https://twitter.com/DJC00P23
+      </a>
+    );
     return (
       <div className="form-container">
         <h1>Contact me</h1>
-        <p className="form-control">Email: deonte.cooper12 at gmail.com</p>
-        <p className="form-control">
-          LinkedIn: https://www.linkedin.com/in/deonte-cooper/
+        <p className="form-control url-link">
+          <p className="form-control url-link">LinkedIn: {linkedin}</p>
+          Email: deonte.cooper12 at gmail.com
         </p>
-        <p className="form-control">Twitter: https://twitter.com/DJC00P23</p>
+        <p className="form-control url-link">Twitter: {twitter}</p>
       </div>
 
       // Contact Form Not fully functioning yet

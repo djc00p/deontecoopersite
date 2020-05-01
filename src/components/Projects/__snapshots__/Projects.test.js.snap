@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects should create snapshot of Projects 1`] = `
+<div>
+  <h1>
+    Projects
+  </h1>
+  <div
+    className="repo-info"
+    key="spaceinyourface"
+  >
+    <h2>
+      spaceinyourface
+    </h2>
+    <p>
+      <br />
+      The goal of Space In Your Face (SIYF) is to bring telescope and naked eye astronomy to users of all ages and ability groups. SIYF is a group effort originating during Module 3 at Turing School of Software & Design. This team included Jeremy Bennett, Deonte Cooper, Matt Levy, Corey Sheesley, and Matt Weiss.
+      <br />
+      <br />
+      <strong>
+        Primary Programming Language
+      </strong>
+      :
+       
+      Ruby
+    </p>
+    <h3>
+      Links
+    </h3>
+    Github Link:
+     
+    <a
+      alt="A Link to the Github page"
+      className="url-link"
+      href="https://github.com/djc00p/spaceinyourface"
+    >
+      https://github.com/djc00p/spaceinyourface
+    </a>
+    <br />
+    Home Page: 
+    <a
+      alt="A Link to the Homepage"
+      className="url-link"
+      href="https://spaceinyourface.herokuapp.com/"
+    >
+      https://spaceinyourface.herokuapp.com/
+    </a>
+    <br />
+  </div>
+  <div
+    className="repo-info"
+    key="PokeTeamBuilder"
+  >
+    <h2>
+      PokeTeamBuilder
+    </h2>
+    <p>
+      <br />
+      This is a Pokemon Team Builder app. The purpose of this app is to provide and set up a team for competitive battle or even local fun battles without going through the grind a team of unknown potential. (Currently Working on)
+      <br />
+      <br />
+      <strong>
+        Primary Programming Language
+      </strong>
+      :
+       
+      Ruby
+    </p>
+    <h3>
+      Links
+    </h3>
+    Github Link:
+     
+    <a
+      alt="A Link to the Github page"
+      className="url-link"
+      href="https://github.com/djc00p/PokeTeamBuilder"
+    >
+      https://github.com/djc00p/PokeTeamBuilder
+    </a>
+    <br />
+    Home Page: 
+    Visit Github for use of external links
+    <br />
+  </div>
+  <div
+    className="repo-info"
+    key="sweater-weather"
+  >
+    <h2>
+      sweater-weather
+    </h2>
+    <p>
+      <br />
+      This is a weather app using Ruby on Rails. This project is the Mod 3 Final assignment from the Turing School of Software and Design. Assignment details are available in the @turingschool curriculum repository.
+      <br />
+      <br />
+      <strong>
+        Primary Programming Language
+      </strong>
+      :
+       
+      Ruby
+    </p>
+    <h3>
+      Links
+    </h3>
+    Github Link:
+     
+    <a
+      alt="A Link to the Github page"
+      className="url-link"
+      href="https://github.com/djc00p/sweater-weather"
+    >
+      https://github.com/djc00p/sweater-weather
+    </a>
+    <br />
+    Home Page: 
+    Visit Github for use of external links
+    <br />
+  </div>
+  <div
+    className="repo-info"
+    key="Express-Sweater-Weather"
+  >
+    <h2>
+      Express-Sweater-Weather
+    </h2>
+    <p>
+      <br />
+      Sweater Weather written in JavaScript/Express instead of Ruby on Rails. This is a weather app using JavaScript, built on NodeJS with the Express framework. Sequelize is used for an ORM.  This project is a Mod 4 assignment from the Turing School of Software and Design. Assignment details are available in the @turingschool curriculum repository.
+      <br />
+      <br />
+      <strong>
+        Primary Programming Language
+      </strong>
+      :
+       
+      JavaScript
+    </p>
+    <h3>
+      Links
+    </h3>
+    Github Link:
+     
+    <a
+      alt="A Link to the Github page"
+      className="url-link"
+      href="https://github.com/djc00p/Express-Sweater-Weather"
+    >
+      https://github.com/djc00p/Express-Sweater-Weather
+    </a>
+    <br />
+    Home Page: 
+    Visit Github for use of external links
+    <br />
+  </div>
+  <div
+    className="repo-info"
+    key="Rales_Engine"
+  >
+    <h2>
+      Rales_Engine
+    </h2>
+    <p>
+      <br />
+      I used Rails and ActiveRecord to build a JSON API, which exposes the SalesEngine data schema. I also learned how to to build Single-Responsibility controllers to provide a well-designed and versioned API, how to use controller tests to drive my design, and used Ruby and ActiveRecord to perform more complicated business intelligence.
+      <br />
+      <br />
+      <strong>
+        Primary Programming Language
+      </strong>
+      :
+       
+      Ruby
+    </p>
+    <h3>
+      Links
+    </h3>
+    Github Link:
+     
+    <a
+      alt="A Link to the Github page"
+      className="url-link"
+      href="https://github.com/djc00p/Rales_Engine"
+    >
+      https://github.com/djc00p/Rales_Engine
+    </a>
+    <br />
+    Home Page: 
+    Visit Github for use of external links
+    <br />
+  </div>
+  <h1>
+    Music Creations
+  </h1>
+  <SoundCloud />
+</div>
+`;

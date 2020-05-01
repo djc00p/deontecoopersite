@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import repodata from "./Repodata.json";
+import SoundCloud from "./SoundCloud";
 import "./Projects.css";
 
 // console.log(JSON.stringify(repodata.data.user.pinnedItems.edges));
@@ -50,6 +51,8 @@ class Projects extends Component {
       <div>
         <h1>Projects</h1>
         {repos}
+        <h1>Music Creations</h1>
+        <SoundCloud />
       </div>
     );
   }
