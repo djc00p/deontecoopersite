@@ -3,8 +3,8 @@ import { shallow, mount, render } from "enzyme";
 import Projects from "./Projects";
 
 describe("Projects", () => {
-  it("should render withour throwing an error", () => {
+  it("should create snapshot of Projects", () => {
     const wrapper = shallow(<Projects />);
-    expect(wrapper.contains(<div className="home-page" />));
+    expect(wrapper).toMatchSnapshot();
   });
 });
