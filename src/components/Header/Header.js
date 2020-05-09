@@ -45,6 +45,11 @@ const Header = () => {
             Projects{" "}
           </NavLink>
           <hr></hr>
+          <NavLink to="/soundcloud" className="nav" alt="SoundCloud Link">
+            {" "}
+            SoundCloud{" "}
+          </NavLink>
+          <hr></hr>
           <NavLink to="/blog" className="nav" alt="Blog Link">
             {" "}
             Blog{" "}
@@ -108,6 +113,13 @@ const Header = () => {
                 <NavLink to="/projects" className="nav" alt="Projects Link">
                   {" "}
                   Projects{" "}
+                </NavLink>
+              </li>
+              <hr className="dropdown-divider"></hr>
+              <li className="nav">
+                <NavLink to="/soundcloud" className="nav" alt="SoundCloud Link">
+                  {" "}
+                  SoundCloud{" "}
                 </NavLink>
               </li>
               <hr className="dropdown-divider"></hr>
