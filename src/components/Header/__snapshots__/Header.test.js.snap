@@ -48,6 +48,16 @@ exports[`Header should create snapshot of header 1`] = `
       </NavLink>
       <hr />
       <NavLink
+        alt="SoundCloud Link"
+        className="nav"
+        to="/soundcloud"
+      >
+         
+        SoundCloud
+         
+      </NavLink>
+      <hr />
+      <NavLink
         alt="Blog Link"
         className="nav"
         to="/blog"
@@ -150,6 +160,22 @@ exports[`Header should create snapshot of header 1`] = `
             >
                
               Projects
+               
+            </NavLink>
+          </li>
+          <hr
+            className="dropdown-divider"
+          />
+          <li
+            className="nav"
+          >
+            <NavLink
+              alt="SoundCloud Link"
+              className="nav"
+              to="/soundcloud"
+            >
+               
+              SoundCloud
                
             </NavLink>
           </li>

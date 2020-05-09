@@ -10,6 +10,7 @@ import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 import Bio from "./components/Bio/Bio";
 import Projects from "./components/Projects/Projects";
+import SoundCloud from "./components/SoundCloud/SoundCloud";
 import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
 
@@ -29,6 +30,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/Bio" component={Bio} />
         <Route exact path="/Projects" component={Projects} />
+        <Route exact path="/SoundCloud" component={SoundCloud} />
         <Route exact path="/Blog" component={Blog} />
         <Route exact path="/Contact" component={Contact} />
       </main>
