@@ -191,9 +191,5 @@ exports[`Projects should create snapshot of Projects 1`] = `
     Visit Github for use of external links
     <br />
   </div>
-  <h1>
-    Music Creations
-  </h1>
-  <SoundCloud />
 </div>
 `;
